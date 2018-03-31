@@ -33,6 +33,7 @@ Then you can install the package:
 ```
 cd LipNet/
 pip install -e .
+./install extra_dependencies.sh
 ```
 **Note:** if you don't want to use CUDA, you need to edit the ``setup.py`` and change ``tensorflow-gpu`` to ``tensorflow``
 
