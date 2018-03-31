@@ -58,12 +58,11 @@ There are five different training scenarios that are (going to be) available:
 1. Download all video (normal) and align from the GRID Corpus website.
 2. Extracts all the videos and aligns.
 3. Create ``datasets`` folder on each training scenario folder.
-4. Create ``align`` folder inside the ``datasets`` folder.
-5. All current ``train.py`` expect the videos to be in the form of 100x50px mouthcrop image frames.
+4. All current ``train.py`` expect the videos to be in the form of 100x50px mouthcrop image frames.
 You can change this by adding ``vtype = "face"`` and ``face_predictor_path`` (which can be found in ``evaluation/models``) in the instantiation of ``Generator`` inside the ``train.py``
-6. The other way would be to extract the mouthcrop image using ``scripts/extract_mouth_batch.py`` (usage can be found inside the script).
-7. Create symlink from each ``training/*/datasets/align`` to your align folder.
-8. You can change the training parameters by modifying ``train.py`` inside its respective scenarios.
+5. The other way would be to extract the mouthcrop image using ``scripts/extract_mouth_batch.py`` (usage can be found inside the script).
+6. Create symlink from each ``training/*/datasets/align`` to your align folder.
+7. You can change the training parameters by modifying ``train.py`` inside its respective scenarios.
 
 ### Random split (Unmaintained)
 Create symlink from ``training/random_split/datasets/video`` to your video dataset folder (which contains ``s*`` directory).
