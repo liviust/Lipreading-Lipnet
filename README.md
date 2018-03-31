@@ -19,7 +19,7 @@ Keras implementation of the method described in the paper 'LipNet: End-to-End Se
 
 ## Dependencies
 * Keras 2.0+
-* Tensorflow 1.0+
+* Tensorflow 1.3
 * PIP (for package installation)
 
 Plus several other libraries listed on `setup.py`
@@ -27,7 +27,9 @@ Plus several other libraries listed on `setup.py`
 ## Usage
 To use the model, first you need to clone the repository:
 ```
-git clone https://github.com/rizkiarm/LipNet
+#Original repo:
+#git clone https://github.com/rizkiarm/LipNet
+git clone https://github.com/liviust/Lipreading-Lipnet
 ```
 Then you can install the package:
 ```
