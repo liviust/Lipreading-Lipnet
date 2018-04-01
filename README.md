@@ -65,7 +65,7 @@ You can change this by adding ``vtype = "face"`` and ``face_predictor_path`` (wh
 7. You can change the training parameters by modifying ``train.py`` inside its respective scenarios.
 
 ### Random split (Unmaintained)
-Create symlink from ``training/random_split/datasets/video`` to your video dataset folder (which contains ``s*`` directory).
+Create symlink from ``training/random_split/datasets/video`` to your video mouth crops dataset folder (which contains ``s*`` directory).
 
 Train the model using the following command:
 ```
